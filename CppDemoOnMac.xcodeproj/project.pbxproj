@@ -27,6 +27,7 @@
 		079A87A51FE6C84800BB48D5 /* libopencv_shape.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A87941FE6C84700BB48D5 /* libopencv_shape.3.3.1.dylib */; };
 		079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AA1FE8176900BB48D5 /* RoiAndMixed.cpp */; };
 		079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */; };
+		079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,8 @@
 		079A87AB1FE8176900BB48D5 /* RoiAndMixed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RoiAndMixed.hpp; sourceTree = "<group>"; };
 		079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
+		079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplitAndMerge.cpp; sourceTree = "<group>"; };
+		079A87B11FE958A300BB48D5 /* SplitAndMerge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplitAndMerge.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				079A87AB1FE8176900BB48D5 /* RoiAndMixed.hpp */,
 				079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */,
 				079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */,
+				079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */,
+				079A87B11FE958A300BB48D5 /* SplitAndMerge.hpp */,
 			);
 			path = CppDemoOnMac;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */,
+				079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */,
 				079A874E1FE67F1300BB48D5 /* main.cpp in Sources */,
 				079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */,
 			);

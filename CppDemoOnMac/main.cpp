@@ -6,6 +6,7 @@
 
 #include "HelloWorld.hpp"
 #include "RoiAndMixed.hpp"
+#include "SplitAndMerge.hpp"
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
@@ -14,8 +15,7 @@ using namespace cv;
 
 int main( )
 {
-    mixed();
-    
+    cv_split();
     waitKey();
     return 0;
 }
