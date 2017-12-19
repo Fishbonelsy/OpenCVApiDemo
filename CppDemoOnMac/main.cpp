@@ -14,7 +14,8 @@ using namespace cv;
 
 int main( )
 {
-    copyto();
+    mixed();
+    
     waitKey();
     return 0;
 }
