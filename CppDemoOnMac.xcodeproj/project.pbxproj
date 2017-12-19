@@ -25,7 +25,8 @@
 		079A87A31FE6C84800BB48D5 /* libopencv_dnn.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A87921FE6C84700BB48D5 /* libopencv_dnn.3.3.1.dylib */; };
 		079A87A41FE6C84800BB48D5 /* libopencv_core.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A87931FE6C84700BB48D5 /* libopencv_core.3.3.1.dylib */; };
 		079A87A51FE6C84800BB48D5 /* libopencv_shape.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A87941FE6C84700BB48D5 /* libopencv_shape.3.3.1.dylib */; };
-		079A87A71FE8142700BB48D5 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87A61FE8142700BB48D5 /* HelloWorld.cpp */; };
+		079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AA1FE8176900BB48D5 /* RoiAndMixed.cpp */; };
+		079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,8 +61,10 @@
 		079A87921FE6C84700BB48D5 /* libopencv_dnn.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_dnn.3.3.1.dylib; path = ../../../../usr/local/lib/libopencv_dnn.3.3.1.dylib; sourceTree = "<group>"; };
 		079A87931FE6C84700BB48D5 /* libopencv_core.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.3.1.dylib; path = ../../../../usr/local/lib/libopencv_core.3.3.1.dylib; sourceTree = "<group>"; };
 		079A87941FE6C84700BB48D5 /* libopencv_shape.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_shape.3.3.1.dylib; path = ../../../../usr/local/lib/libopencv_shape.3.3.1.dylib; sourceTree = "<group>"; };
-		079A87A61FE8142700BB48D5 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
-		079A87A81FE814BF00BB48D5 /* HelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		079A87AA1FE8176900BB48D5 /* RoiAndMixed.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RoiAndMixed.cpp; sourceTree = "<group>"; };
+		079A87AB1FE8176900BB48D5 /* RoiAndMixed.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RoiAndMixed.hpp; sourceTree = "<group>"; };
+		079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +132,10 @@
 			isa = PBXGroup;
 			children = (
 				079A874D1FE67F1300BB48D5 /* main.cpp */,
-				079A87A61FE8142700BB48D5 /* HelloWorld.cpp */,
-				079A87A81FE814BF00BB48D5 /* HelloWorld.h */,
+				079A87AA1FE8176900BB48D5 /* RoiAndMixed.cpp */,
+				079A87AB1FE8176900BB48D5 /* RoiAndMixed.hpp */,
+				079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */,
+				079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */,
 			);
 			path = CppDemoOnMac;
 			sourceTree = "<group>";
@@ -192,8 +197,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */,
 				079A874E1FE67F1300BB48D5 /* main.cpp in Sources */,
-				079A87A71FE8142700BB48D5 /* HelloWorld.cpp in Sources */,
+				079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

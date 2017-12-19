@@ -6,6 +6,8 @@
 //  Copyright © 2017年 LongSiyang. All rights reserved.
 //
 
+#include "HelloWorld.hpp"
+
 #include <stdio.h>
 
 #include<opencv2/core/core.hpp>
@@ -39,6 +41,4 @@ void hello_world(){
     imwrite("/Users/longsiyang/cppdemoonmac/CppDemoOnMac/OpenCVApiDemo/叠加图.jpg",image);
     
     
-    waitKey();
-
 }
