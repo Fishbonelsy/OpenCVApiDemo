@@ -13,4 +13,6 @@
 
 void cv_split();
 
+void cv_merge();
+
 #endif /* SplitAndMerge_hpp */

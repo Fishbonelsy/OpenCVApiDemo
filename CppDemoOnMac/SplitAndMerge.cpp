@@ -21,3 +21,19 @@ void cv_split(){
     namedWindow("<1>利用ROI实现图像叠加示例窗口");
     imshow("<1>利用ROI实现图像叠加示例窗口",channels.at(1));
 }
+
+void cv_merge(){
+    std::vector<Mat> channels;
+    Mat logoImage =imread("/Users/longsiyang/cppdemoonmac/CppDemoOnMac/OpenCVApiDemo/1.jpg",0);
+    Mat srcImage=imread("/Users/longsiyang/cppdemoonmac/CppDemoOnMac/OpenCVApiDemo/2.jpeg");
+    
+    split(srcImage,channels);//分离色彩通道
+    Mat imageROI=channels.at(0);
+    addWeighted(imageROI(Rect(0,0,logoImage.cols,logoImage.rows)),1.0,
+                logoImage,0.5,0.,imageROI(Rect(0,0,logoImage.cols,logoImage.rows)));
+    
+    merge(channels,srcImage);
+    
+    namedWindow("sample");
+    imshow("sample",srcImage);
+}

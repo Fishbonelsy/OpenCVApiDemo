@@ -15,7 +15,7 @@ using namespace cv;
 
 int main( )
 {
-    cv_split();
+    cv_merge();
     waitKey();
     return 0;
 }
