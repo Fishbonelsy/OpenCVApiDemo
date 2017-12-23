@@ -7,6 +7,7 @@
 #include "HelloWorld.hpp"
 #include "RoiAndMixed.hpp"
 #include "SplitAndMerge.hpp"
+#include "ContrastAndBright.hpp"
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
@@ -15,7 +16,7 @@ using namespace cv;
 
 int main( )
 {
-    cv_merge();
+    adjust_contrast_and_bright(100, 50);
     waitKey();
     return 0;
 }

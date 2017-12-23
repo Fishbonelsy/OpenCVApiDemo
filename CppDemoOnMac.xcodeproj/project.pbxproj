@@ -28,6 +28,7 @@
 		079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AA1FE8176900BB48D5 /* RoiAndMixed.cpp */; };
 		079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */; };
 		079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */; };
+		07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +69,8 @@
 		079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 		079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplitAndMerge.cpp; sourceTree = "<group>"; };
 		079A87B11FE958A300BB48D5 /* SplitAndMerge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplitAndMerge.hpp; sourceTree = "<group>"; };
+		07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContrastAndBright.cpp; sourceTree = "<group>"; };
+		07E090041FEEABDF002CA080 /* ContrastAndBright.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContrastAndBright.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */,
 				079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */,
 				079A87B11FE958A300BB48D5 /* SplitAndMerge.hpp */,
+				07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */,
+				07E090041FEEABDF002CA080 /* ContrastAndBright.hpp */,
 			);
 			path = CppDemoOnMac;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			files = (
 				079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */,
 				079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */,
+				07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */,
 				079A874E1FE67F1300BB48D5 /* main.cpp in Sources */,
 				079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */,
 			);
