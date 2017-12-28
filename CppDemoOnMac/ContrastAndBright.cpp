@@ -13,6 +13,10 @@
 
 using namespace cv;
 
+/**
+ * @ param contrast (0-100)
+ * @ param bright (0-100)
+ */
 void adjust_contrast_and_bright(int contrast , int bright){
     
     Mat g_srcImage = imread("/Users/longsiyang/cppdemoonmac/CppDemoOnMac/OpenCVApiDemo/1.jpg");

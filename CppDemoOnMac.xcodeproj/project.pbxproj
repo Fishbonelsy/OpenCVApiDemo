@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079A01061FF537B000A7D427 /* LinearFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A01041FF537B000A7D427 /* LinearFilter.cpp */; };
 		079A874E1FE67F1300BB48D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A874D1FE67F1300BB48D5 /* main.cpp */; };
 		079A87951FE6C84800BB48D5 /* libopencv_imgproc.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A87841FE6C84600BB48D5 /* libopencv_imgproc.3.3.1.dylib */; };
 		079A87961FE6C84800BB48D5 /* libopencv_imgcodecs.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 079A87851FE6C84600BB48D5 /* libopencv_imgcodecs.3.3.1.dylib */; };
@@ -44,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		079A01041FF537B000A7D427 /* LinearFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearFilter.cpp; sourceTree = "<group>"; };
+		079A01051FF537B000A7D427 /* LinearFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearFilter.hpp; sourceTree = "<group>"; };
 		079A874A1FE67F1300BB48D5 /* CppDemoOnMac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CppDemoOnMac; sourceTree = BUILT_PRODUCTS_DIR; };
 		079A874D1FE67F1300BB48D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		079A87841FE6C84600BB48D5 /* libopencv_imgproc.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.3.3.1.dylib; path = ../../../../usr/local/lib/libopencv_imgproc.3.3.1.dylib; sourceTree = "<group>"; };
@@ -146,6 +149,8 @@
 				079A87B11FE958A300BB48D5 /* SplitAndMerge.hpp */,
 				07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */,
 				07E090041FEEABDF002CA080 /* ContrastAndBright.hpp */,
+				079A01041FF537B000A7D427 /* LinearFilter.cpp */,
+				079A01051FF537B000A7D427 /* LinearFilter.hpp */,
 			);
 			path = CppDemoOnMac;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */,
 				07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */,
 				079A874E1FE67F1300BB48D5 /* main.cpp in Sources */,
+				079A01061FF537B000A7D427 /* LinearFilter.cpp in Sources */,
 				079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

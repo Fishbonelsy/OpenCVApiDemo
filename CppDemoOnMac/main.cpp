@@ -8,6 +8,7 @@
 #include "RoiAndMixed.hpp"
 #include "SplitAndMerge.hpp"
 #include "ContrastAndBright.hpp"
+#include "LinearFilter.hpp"
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
@@ -16,7 +17,7 @@ using namespace cv;
 
 int main( )
 {
-    adjust_contrast_and_bright(100, 50);
+    gussian_blur();
     waitKey();
     return 0;
 }
