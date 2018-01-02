@@ -3,12 +3,13 @@
 // VS2010版   OpenCV版本：2.4.8
 //------------------------------------------------------------------------------------------------
 
-
+#include <iostream>
 #include "HelloWorld.hpp"
 #include "RoiAndMixed.hpp"
 #include "SplitAndMerge.hpp"
 #include "ContrastAndBright.hpp"
 #include "LinearFilter.hpp"
+#include "NonLinearFilter.hpp"
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
@@ -17,7 +18,8 @@ using namespace cv;
 
 int main( )
 {
-    gussian_blur();
+    bilateral_filter();
+    
     waitKey();
     return 0;
 }

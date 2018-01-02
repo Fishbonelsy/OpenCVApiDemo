@@ -29,6 +29,7 @@
 		079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AA1FE8176900BB48D5 /* RoiAndMixed.cpp */; };
 		079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87AD1FE817D300BB48D5 /* HelloWorld.cpp */; };
 		079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */; };
+		07B5F99A1FFB49CD00991E43 /* NonLinearFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B5F9981FFB49CD00991E43 /* NonLinearFilter.cpp */; };
 		07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,8 @@
 		079A87AE1FE817D300BB48D5 /* HelloWorld.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HelloWorld.hpp; sourceTree = "<group>"; };
 		079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SplitAndMerge.cpp; sourceTree = "<group>"; };
 		079A87B11FE958A300BB48D5 /* SplitAndMerge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SplitAndMerge.hpp; sourceTree = "<group>"; };
+		07B5F9981FFB49CD00991E43 /* NonLinearFilter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NonLinearFilter.cpp; sourceTree = "<group>"; };
+		07B5F9991FFB49CD00991E43 /* NonLinearFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonLinearFilter.hpp; sourceTree = "<group>"; };
 		07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContrastAndBright.cpp; sourceTree = "<group>"; };
 		07E090041FEEABDF002CA080 /* ContrastAndBright.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContrastAndBright.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 				07E090041FEEABDF002CA080 /* ContrastAndBright.hpp */,
 				079A01041FF537B000A7D427 /* LinearFilter.cpp */,
 				079A01051FF537B000A7D427 /* LinearFilter.hpp */,
+				07B5F9981FFB49CD00991E43 /* NonLinearFilter.cpp */,
+				07B5F9991FFB49CD00991E43 /* NonLinearFilter.hpp */,
 			);
 			path = CppDemoOnMac;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				079A87AF1FE817D300BB48D5 /* HelloWorld.cpp in Sources */,
+				07B5F99A1FFB49CD00991E43 /* NonLinearFilter.cpp in Sources */,
 				079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */,
 				07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */,
 				079A874E1FE67F1300BB48D5 /* main.cpp in Sources */,
