@@ -31,6 +31,7 @@
 		079A87B21FE958A300BB48D5 /* SplitAndMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 079A87B01FE958A300BB48D5 /* SplitAndMerge.cpp */; };
 		07B5F99A1FFB49CD00991E43 /* NonLinearFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07B5F9981FFB49CD00991E43 /* NonLinearFilter.cpp */; };
 		07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */; };
+		07F241982000DBDF004DE796 /* BaseMorphology.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07F241962000DBDF004DE796 /* BaseMorphology.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +78,8 @@
 		07B5F9991FFB49CD00991E43 /* NonLinearFilter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NonLinearFilter.hpp; sourceTree = "<group>"; };
 		07E090031FEEABDF002CA080 /* ContrastAndBright.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContrastAndBright.cpp; sourceTree = "<group>"; };
 		07E090041FEEABDF002CA080 /* ContrastAndBright.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContrastAndBright.hpp; sourceTree = "<group>"; };
+		07F241962000DBDF004DE796 /* BaseMorphology.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BaseMorphology.cpp; sourceTree = "<group>"; };
+		07F241972000DBDF004DE796 /* BaseMorphology.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BaseMorphology.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				079A01051FF537B000A7D427 /* LinearFilter.hpp */,
 				07B5F9981FFB49CD00991E43 /* NonLinearFilter.cpp */,
 				07B5F9991FFB49CD00991E43 /* NonLinearFilter.hpp */,
+				07F241962000DBDF004DE796 /* BaseMorphology.cpp */,
+				07F241972000DBDF004DE796 /* BaseMorphology.hpp */,
 			);
 			path = CppDemoOnMac;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 				07E090051FEEABDF002CA080 /* ContrastAndBright.cpp in Sources */,
 				079A874E1FE67F1300BB48D5 /* main.cpp in Sources */,
 				079A01061FF537B000A7D427 /* LinearFilter.cpp in Sources */,
+				07F241982000DBDF004DE796 /* BaseMorphology.cpp in Sources */,
 				079A87AC1FE8176900BB48D5 /* RoiAndMixed.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

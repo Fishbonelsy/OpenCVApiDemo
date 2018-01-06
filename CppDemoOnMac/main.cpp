@@ -10,6 +10,7 @@
 #include "ContrastAndBright.hpp"
 #include "LinearFilter.hpp"
 #include "NonLinearFilter.hpp"
+#include "BaseMorphology.hpp"
 
 #include<opencv2/core/core.hpp>
 #include<opencv2/highgui/highgui.hpp>
@@ -18,7 +19,7 @@ using namespace cv;
 
 int main( )
 {
-    bilateral_filter();
+    dilate();
     
     waitKey();
     return 0;
